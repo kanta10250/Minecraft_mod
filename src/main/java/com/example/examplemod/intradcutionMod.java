@@ -30,14 +30,14 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 
-@Mod(ExampleMod.MOD_ID)
-public class ExampleMod {
+@Mod(intradcutionMod.MOD_ID)
+public class intradcutionMod {
     public static final String MOD_ID = "introductionmod";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public ExampleMod() {
+    public intradcutionMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
